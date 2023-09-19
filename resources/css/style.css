@@ -1,0 +1,69 @@
+/****************** 
+*                 *
+*   MAIN STYLES   * 
+*                 *
+*******************/
+
+body {
+    background-color: #121212;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    margin: 70px auto;
+    z-index: 0;
+}
+
+h2, h3, h4, h5 {
+    text-align: left;
+}
+
+header {
+    display: inline-flex;
+    background-color: #121212;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid red;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 30px;
+    padding-left: 10px;
+    color: red;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+/****************** 
+*                 *
+*   CLASS STYLES  * 
+*                 *
+*******************/
+
+.navbar {
+    position: absolute;
+    right: 20px;
+}
+
+.navbar li {
+    display: inline;
+    padding: 15px;
+}
+
+.intro {
+    width: 70%;
+    margin: auto;
+}
